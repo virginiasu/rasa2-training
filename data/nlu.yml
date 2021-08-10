@@ -1,6 +1,21 @@
 version: "2.0"
 
 nlu:
+  - intent: out_of_scope
+    examples: |
+      - I want to order pizza
+      - what is 2 + 1
+      - who's the us president
+  - intent: i_like_food
+    examples: |
+      - I like [apples](fruit)
+      - I love [milk](drink)
+      - I like [cucumber](vegetable)
+      - My friend likes [oranges](fruit)
+      - I am a fun of [coffee](drink)
+      - I prefer [banana](fruit) over pear
+      - I like [watermelon](fruit) more than cucumber
+      - I like [juice](drink) more than oranges
   - intent: play_game
     examples: |
       - play [ping pong](game)
