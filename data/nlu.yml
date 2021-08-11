@@ -16,6 +16,7 @@ nlu:
       - I prefer [banana](fruit) over pear
       - I like [watermelon](fruit) more than cucumber
       - I like [juice](drink) more than oranges
+
   - intent: play_game
     examples: |
       - play [ping pong](game)
@@ -112,3 +113,11 @@ nlu:
       - are you a human?
       - am I talking to a bot?
       - am I talking to a human?
+
+  - lookup: fruit
+    examples: |
+      - kiwi
+      - cherry
+      - watermelon
+      - pineapple
+      - blueberry
